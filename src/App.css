@@ -1,22 +1,102 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #c00025;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+  margin-top: 25px;
+  margin-left: 2rem;
+  height: 100px;
+  width: 450px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 8%;
+  font-size: 5rem;
+}
+.button_container {
+  display: flex;
+  width: 18rem;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+  border: 1px solid white;
+}
+.numsButton {
+  width: 80px;
+  margin-top: 30px;
+  margin-right: 1rem;
+  height: 80px;
+  border-radius: 50px;
+  border: 1px 1px #322c2d;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #184379;
+  color: white;
+  font-size: 2rem;
+  box-shadow: 1px 1px #322c2d;
+}
+.opButtons_container {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+
+  margin-top: 0;
+  border: 2px solid white;
+}
+
+.opButtons {
+  width: 80px;
+  margin-top: 30px;
+  height: 80px;
+  border-radius: 50px;
+
+  /* justify-content: center; */
+  background-color: #184379;
+  color: white;
+  font-size: 2rem;
+  box-shadow: 1px 1px #322c2d;
+}
+
+.button_container2 {
+  display: flex;
+  width: 18rem;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+  border: 2px solid white;
+}
+
+.specialButton {
+  width: 80px;
+  margin-top: 30px;
+  margin-right: 1rem;
+  height: 80px;
+  border-radius: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #184379;
+  color: white;
+  font-size: 2rem;
+  box-shadow: 1px 1px #322c2d;
+}
+.App {
+  width: 100%;
+  border: 2px solid white;
+  flex-direction: column;
+}
+.mainB_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border: 2px solid white;
+}
+.nums_container {
+  /* width: 75%; */
+}
